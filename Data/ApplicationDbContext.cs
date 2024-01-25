@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Kaerus.Models;
 
 
 namespace Kaerus.Data
@@ -9,5 +10,7 @@ namespace Kaerus.Data
         {
             
         }
+        public DbSet<Category> MyProperty {  get; set; }
+
     }
 }
